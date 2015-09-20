@@ -1,0 +1,6 @@
+package com.orangehrm.testsuite;
+
+public class AddEmployee  extends Constants{
+	
+
+}

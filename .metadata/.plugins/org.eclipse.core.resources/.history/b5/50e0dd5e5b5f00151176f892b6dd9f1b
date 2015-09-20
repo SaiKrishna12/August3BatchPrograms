@@ -1,0 +1,22 @@
+package com.orangehrm.testsuite;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+public class Logout extends Constants{
+	
+	Menu menu=null;
+	public Logout(WebDriver driver)
+	{
+		menu=PageFactory.initElements(driver,Menu.class);
+	}
+	@Test
+	public void logoutTest() throws InterruptedException
+	{  
+		Thread.sleep(5000);
+		menu.logout();
+		
+	}
+
+}

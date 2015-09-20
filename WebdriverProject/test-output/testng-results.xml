@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Newtours demo suite" duration-ms="57578" started-at="2015-09-18T03:00:15Z" finished-at="2015-09-18T03:01:13Z">
+    <groups>
+    </groups>
+    <test name="Login on newtours site" duration-ms="12776" started-at="2015-09-18T03:00:15Z" finished-at="2015-09-18T03:00:28Z">
+      <class name="day22.Login">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:day22.Login@d8bb52b]" name="launchApp" is-config="true" duration-ms="9625" started-at="2015-09-17T20:00:15Z" finished-at="2015-09-17T20:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:day22.Login@d8bb52b]" name="loginTest" duration-ms="2542" started-at="2015-09-17T20:00:25Z" finished-at="2015-09-17T20:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:day22.Login@d8bb52b]" name="closeApp" is-config="true" duration-ms="593" started-at="2015-09-17T20:00:28Z" finished-at="2015-09-17T20:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- day22.Login -->
+    </test> <!-- Login on newtours site -->
+    <test name="Links on newtours site" duration-ms="44724" started-at="2015-09-18T03:00:28Z" finished-at="2015-09-18T03:01:13Z">
+      <class name="day22.Links">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:day22.Links@2cc2c69f]" name="launchApp" is-config="true" duration-ms="8426" started-at="2015-09-17T20:00:28Z" finished-at="2015-09-17T20:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="linksTest()[pri:0, instance:day22.Links@2cc2c69f]" name="linksTest" duration-ms="36003" started-at="2015-09-17T20:00:37Z" finished-at="2015-09-17T20:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linksTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:day22.Links@2cc2c69f]" name="closeApp" is-config="true" duration-ms="295" started-at="2015-09-17T20:01:13Z" finished-at="2015-09-17T20:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- day22.Links -->
+    </test> <!-- Links on newtours site -->
+  </suite> <!-- Newtours demo suite -->
+</testng-results>

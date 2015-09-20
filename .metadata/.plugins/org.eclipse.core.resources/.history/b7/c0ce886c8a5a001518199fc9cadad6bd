@@ -1,0 +1,14 @@
+package com.qedge;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class Sample {
+	@Test
+	public void samleTesT()
+	{
+	
+		FirefoxDriver driver=new FirefoxDriver();
+	}
+
+}

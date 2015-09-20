@@ -1,0 +1,15 @@
+ 
+<suite name="OrangeHRM Project"  parallel="tests" >
+  <test name="On firefox" >
+   <parameter name="browser" value="firefox"/>
+    <classes>
+       <class name="com.orangehrm.testsuite.Login" />
+    </classes>
+  </test>
+   <test name="On chrome" >
+    <parameter name="browser" value="chrome"/>
+    <classes>
+       <class name="com.orangehrm.testsuite.Login" />
+    </classes>
+  </test>
+ </suite>

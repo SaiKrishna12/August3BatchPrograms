@@ -1,0 +1,13 @@
+ 
+<suite name="Newtours demo suite"  >
+  <test name="Login on newtours site" >
+    <classes>
+       <class name="day22.Login" />
+    </classes>
+  </test>
+   <test name="Links on newtours site" >
+    <classes>
+       <class name="day22.Links" />
+    </classes>
+  </test>
+ </suite>

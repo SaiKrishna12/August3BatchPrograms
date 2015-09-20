@@ -1,0 +1,17 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class ChromeLaunch {
+
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","c:\\chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		
+		driver.get("http://www.bing.com/");
+		driver.findElement(By.linkText("Help")).click();
+		
+	}
+
+}

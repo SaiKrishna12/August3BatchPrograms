@@ -1,0 +1,9 @@
+package com.orangehrm.testsuite;
+
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class Constants {
+	
+	static RemoteWebDriver driver=null;
+
+}
